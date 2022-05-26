@@ -8,7 +8,7 @@ let assetPath = path.join(__dirname,'assets');
 let projectAssetPath=path.join(targetPath,'assets');
 let htmlPath = path.join(__dirname,'template.html');
 let componentPath = path.join(__dirname,'components');
-let info;
+let info='';
 let html='';
 let components=[];
 mkdir(targetPath, { recursive: true }, (err,dir) => { if (err) console.log('error')});
